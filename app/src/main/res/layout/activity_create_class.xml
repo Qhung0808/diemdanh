@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/new_class"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/etClassName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="username"
+        android:background="@drawable/btn_round"
+        android:backgroundTint="@color/white"
+        android:hint="@string/create_class"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:shadowColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnCreateClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/btn_gradient"
+        android:text="@string/create_class" />
+
+
+</LinearLayout>

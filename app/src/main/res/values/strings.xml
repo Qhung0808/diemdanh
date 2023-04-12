@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">diemdanh</string>
+    <string name="create_class">Create Class</string>
+    <string name="new_class">New Class:</string>
+    <string name="input_file">Input File</string>
+</resources>
